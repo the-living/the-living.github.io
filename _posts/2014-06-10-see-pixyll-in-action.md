@@ -2,6 +2,7 @@
 layout:     post
 title:      Pixyll in Action
 date:       2014-06-10 12:31:19
+author:     Danil
 summary:    See what the different elements looks like. Your markdowsdfsdf
 categories: jekyll pixyll
 ---
