@@ -1,9 +1,9 @@
 ---
 layout:     post
-title:      Machine Learning for design
+title:      Automating design (part 1)
 date:       2016-03-04
 author:     Danil
-summary:    Looking at the potentials of Machine Learning for design.
+summary:    The first in a series of posts looking into strategies and theoretical ramifications of using computational strategies to automate and augment parts of the traditional design process.
 ---
 
 Example post
