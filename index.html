@@ -9,10 +9,11 @@ layout: default
       {% for post in paginator.posts %}
         <div class="post py3">
           <p class="post-meta">posted on {{ post.date | date: site.date_format }} by {{ post.author }}</p>
+          <a href="{{ post.url | prepend: site.baseurl }}" class="post-link">
           <div class="img-container">
             <img src="{{ site.baseurl }}/images/{{ post.image }}" alt="img"/>
           </div>
-          <a href="{{ post.url | prepend: site.baseurl }}" class="post-link"><h3 class="h1 post-title">{{ post.title }}</h3></a>
+          <h3 class="h1 post-title">{{ post.title }}</h3></a>
           <p class="post-summary">
             {% if post.summary %}
               {{ post.summary }}
