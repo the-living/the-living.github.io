@@ -91,8 +91,8 @@ layout:     post
 title:      post template
 author:     your name
 summary:    short description of post
-image:		placeholder-title-image.png
-tags:		tags
+image:	placeholder-title-image.png
+tags:	tags
 ---
 ```
 
