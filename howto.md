@@ -87,12 +87,12 @@ To start a new branch, click the icon to the left of the pulldown which is showi
 
 ```
 ---
-layout:     post
-title:      post template
-author:     your name
-summary:    short description of post
-image:	placeholder-title-image.png
-tags:	tags
+layout:		post
+title:		post template
+author:		your name
+summary:	short description of post
+image:		placeholder-title-image.png
+tags:		tags
 ---
 ```
 
