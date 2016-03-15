@@ -35,10 +35,17 @@ div.img-container {
 }
 
 .img-container img { 
+    -webkit-filter: grayscale(100%);
+    filter: grayscale(100%);
     width: 100%;
     position: absolute;
     top: 50%;
     transform: translate(0,-50%);
+}
+
+img:hover { 
+    -webkit-filter: grayscale(0%);
+    filter: grayscale(0%);
 }
 
 em img {
