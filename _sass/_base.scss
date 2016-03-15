@@ -48,6 +48,10 @@ img:hover {
     filter: grayscale(0%);
 }
 
+img[alt=image] {
+  max-height: 400px
+}
+
 em img {
   max-width: 100%;
   margin-left: 0;
