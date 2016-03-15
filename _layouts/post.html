@@ -34,6 +34,10 @@ layout: default
   {% include post_footer.html %}
 {% endif %}
 
+<br>
+
+<p style="border-style: solid;border-width:2px 0 0;border-color: rgba(0,39,59,.08);padding-top:10px">tagged with{% if page.tags.size > 0 %} <em>[{% for tag in page.tags %}{{ tag }}{% unless tag == page.tags.last %}, {% endunless %}{% endfor %}]</em>{% endif %}</p>
+
 {% if site.disqus_shortname %}
   <div id="disqus_thread"></div>
   <script type="text/javascript">
