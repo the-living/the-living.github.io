@@ -15,6 +15,8 @@ tags:
 
 This tutorial will go over the process of setting up a workflow between a NURBS modeling software to a CFD analysis and finally to a dataset. Included are examples of usage in a general purpose exterior wind flow analysis as well as a building specific interior model. The simulation engine is Autodesk Simulation CFD 2016, which has a flexible API which allows us to build a seamless workflow into NURBS and solid's modeling software such as Rhino, SolidWorks, Fusion, etc. 
 
+For general overview of CFD in Architecture see ([following post](/2017/01/30/cfd/ "CFD Walkthrough"))
+
 ![image](/images/SimCFD_setup_mars.png)
 
 ### Base Files
